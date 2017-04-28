@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,11 +9,31 @@
   <title>Document</title>
 </head>
 <body>
-  <ol>
-      <li>Лось — животное хитрое</li>
-      <!-- комментарий -->
-      <li>..И коварное!</li>
-</ol>
-  <script type="text/javascript" src="script.js"></script>
+    <div id="header">Шапка</div>
+
+    <ul>
+      <li>
+        <span style="background-color:red">Осторожно</span>
+      </li>
+      <li class="info"><input type="text" value="Информация"></li>
+
+    </ul>
+    <div id="footer">Подвал. &copy; javascript.ru</div>
+
+  <script>
+
+var i,
+		elements = document.body.children,
+		tableTd = document.body.children[2];
+document.body.children[0].innerHTML = 'Папка, а не шапка';
+document.body.children[document.body.children.length - 2].innerHTML = 'Развал';
+for(i = 0; i < elements.length; i++){
+	console.log(elements[i]);
+}
+//console.log(tableTd.rows[0].cells[0].innerHTML);
+console.log(document.body.children[0].innerHTML);
+  </script>
+  ...
 </body>
+
 </html>
