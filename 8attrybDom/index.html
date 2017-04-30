@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <style>
+    .external {
+      background-color: yellow
+    }
+  </style>
+</head>
+
+<body id="telo">
+  <div class="header" id="header" data-about="elephant">
+    <ul>
+      <li>
+        <p>123</p>
+        <p>456</p>
+        <input class="search 2class" type="donot" name="in" value="123">
+      </li>
+    </ul>
+  </div>
+  <div id="widget" data-widget-name="menu">Выберите жанр</div>
+  <a name="list">список</a>
+  <ul>
+    <li><a href="http://google.com">http://google.com</a></li>
+    <li><a href="/tutorial">/tutorial.html</a></li>
+    <li><a href="local/path">local/path</a></li>
+    <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+    <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+    <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+  </ul>
+  <script>
+    (function() {
+      var widget = document.querySelector('#widget').dataset.widgetName;
+      var widget = document.querySelector('#widget').getAttribute('data-widget-name');
+      //var b = document.body;
+      //console.log(b.hasAttribute('id'));
+      //b.getAttribute('id');
+      //console.log(b.id);
+      //b.setAttribute('id','tusha');
+      //console.log(b.id);
+    //  console.log(document.querySelector('#header').getAttribute('data-about'));
+    //  console.log(document.querySelector('#header').dataset.about);
+    //  console.log(widget);
+    //  var links = document.getElementsByTagName('a'),
+      var css = 'a[href*="://"]:not([href^="http://internal.com"])',
+        links = document.querySelectorAll(css),
+          i = 0;
+    /*  for(i; i<links.length; i++){
+        var a = links[i],
+            href = a.getAttribute('href');
+        if(!href) continue;
+        if(href.indexOf('://') == -1 || href.indexOf('http://internal.com') === 0) continue;
+        links[i].classList.add('external');
+      console.log(links[i].getAttribute('href'));
+    }*/
+  for(i; i<links.length; i++){    
+    links[i].classList.add('external');
+  }
+    })();
+  </script>
+
+</body>
+
+</html>

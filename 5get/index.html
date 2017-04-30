@@ -1,64 +1,59 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript">
-  </script>
-  <title>Document</title>
+  <meta charset="utf-8">
+  <title>Home</title>
 </head>
+
 <body>
-    <div id="content-wrapper">
-      <div id="content">
-        Контент
-      </div>
-    </div>
 
-    <table id="age-table">
-      <tr>
-        <td>Ваш возраст:</td>
+  <ul>
+    <li>Животные
+      <ul>
+        <li>Млекопитающие
+          <ul>
+            <li>Коровы</li>
+            <li>Ослы</li>
+            <li>Собаки</li>
+            <li>Тигры</li>
+          </ul>
+        </li>
+        <li>Другие
+          <ul>
+            <li>Змеи</li>
+            <li>Птицы</li>
+            <li>Ящерицы</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Рыбы
+      <ul>
+        <li>Аквариумные
+          <ul>
+            <li>Гуппи</li>
+            <li>Скалярии</li>
+          </ul>
 
-        <td>
-          <label>
-            <input type="radio" name="age" value="young" checked> младше 18
-          </label>
-          <label>
-            <input type="radio" name="age" value="mature"> от 18 до 50
-          </label>
-          <label>
-            <input type="radio" name="age" value="senior"> старше 60
-          </label>
-        </td>
-      </tr>
-
-    </table>
-
-    <div id="footer">Подвал. &copy; javascript.ru</div>
+        </li>
+        <li>Морские
+          <ul>
+            <li>Морская форель</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
 
   <script>
-  var footer = document.getElementById('footer'),
-  tab = document.getElementById('age-table'),
-  elem = tab.getElementsByTagName('input'),
-  i = 0;
-/*  for(i; i < inp.length; i++){
-    inp[i].style.color = 'red';
-  }*/
-  for(i; i < elem.length; i++){
-    var inp = elem[i];
-    if(inp.checked){
-      console.log(inp.value + " : " + inp.checked);
+    var a =document.getElementsByTagName('li');
+    for (var i = 0; i < a.length; i++) {
+      var b = a[i].firstChild.data.trim();
+      console.log(b);
     }
-  }
-// inp[0].style.color = 'red';
-  footer.style.background = 'green';
-/*  console.log(content);
-  console.log(window['content-wrapper']);
-  console.log(document.getElementById('content-wrapper'));
-  console.log(inp);*/
-
   </script>
-  ...
+
 </body>
 
 </html>

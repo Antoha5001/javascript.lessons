@@ -9,10 +9,24 @@
 <body>
 <div class="header">
   <ul>
-    <li></li>
+    <li>
+      <p>123</p>
+      <p>456</p>
+      <input type="donot" name="" value="">
+    </li>
   </ul>
 </div>
   <script>
+(function() {
+  Element.prototype.sayHi = function(){
+       console.log("Привет от " + this);
+  }
+  document.getElementsByTagName('p')[0].sayHi();
+
+  if(!Element.prototype.textContent){
+    Element.prototype.textContent = Element.prototype.innerText;
+  }
+})();
 
   </script>
 
