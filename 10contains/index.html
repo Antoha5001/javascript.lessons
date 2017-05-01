@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <style>
+    .external {
+      background-color: yellow
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li class="first">first
+      <ul>
+        <li class="second">second
+          <ul>
+            <li class="third">third</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="first">first
+      <ul>
+        <li class="second">second
+          <ul>
+            <li class="third">third</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+<!-- <script src="script.js" charset="utf-8"></script> -->
+<script type="text/javascript">
+(function() {
+
+  var d = document,
+  first = d.getElementsByClassName('first')[0],
+  second = d.getElementsByClassName('second')[0],
+  third = d.getElementsByClassName('third')[0],
+  cont = first.contains(third),
+  tnoc = third.contains(first),
+  comp = first.compareDocumentPosition(third);
+console.log(cont);
+console.log(tnoc);
+console.log(comp.toString(2));
+})();
+
+</script>
+</body>
+
+</html>
