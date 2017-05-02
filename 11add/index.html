@@ -38,9 +38,40 @@
   //document.body.appendChild(div);
   body.insertBefore(div, child);
   var divClone = div.cloneNode(true);
-  divClone.firstElementChild.innerHTML = 'Супер';
+  divClone.firstElementChild.innerHTML = 'Супер! ';
   document.querySelector('div.alert').parentElement.insertBefore(divClone, document.querySelector('div').nextSibling);
+  var div0 = d.getElementsByTagName('div')[0];
+  setTimeout(function () {
+    //  div0.parentElement.removeChild(div0);
+    var text = '<strong> жирный </strong> текст';
+    //body.innerHTML = text;
+    body.appendChild(document.createTextNode(text));
+  }, 1000);
+/*  var text = prompt('Введите текст', 'lived was <a> and <b>');
+  setTimeout(function () {
+    body.appendChild(document.createTextNode(text));
+  },1000);*/
   //console.log(child);
+
+  // Задача Удаление элементов
+/*  if (!Element.prototype.remove2){
+    Element.prototype.remove2 = function () {
+      if(this.parentNode){
+        this.parentNode.removeChild(this);
+      }
+    }
+  }*/
+
+  // Задача insertAfter
+  var el = d.createElement('div'),
+  elAft = d.getElementsByTagName('p')[1];
+  el.innerHTML = "<p>Задача insertAfter</p>";
+
+  function insertAfter(elem, afterElem) {
+    return afterElem.parentNode.insertBefore(elem, afterElem.nextSibling);
+  }
+
+insertAfter(el,body.lastChild);
 })();
 </script>
 </body>
