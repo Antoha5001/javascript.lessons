@@ -1,0 +1,84 @@
+$green:#60c48f;
+$dark-green:#397556;
+$lite-green: #e8fff3;
+/*#e8fff3 #ecf8f2*/
+
+$nice-green: #ccffe4;
+/*#e8fff3 #ecf8f2*/
+
+$lite-blue: #2bd9f5;
+/*#e8fff3 #ecf8f2*/
+
+$blue: #38baf2;
+$blue_logo: #00bbff;
+/*#e8fff3 #ecf8f2*/
+
+$image_dir:'../images/';
+$planshet: 910px;
+/**/
+
+$phone: 600px;
+$blue2: #00478a;
+$bluet: rgba(37, 35, 72, 0.65);
+$lite-blue2: #0080ff;
+$nice-blue2: #b0d9ff;
+$lite-bluet: rgba(83, 77, 177, 0.85);
+$orange: #FFD608;
+$dorange111: orange - #111;
+$dorange333: orange - #333;
+$green2: #00ba78;
+$dark-green2: #005c3a;
+$lite-green2: #00cc84;
+$W250: 250px;
+/**/
+
+@mixin border-radius($px) {
+  -webkit-border-radius: $px;
+  -moz-border-radius: $px;
+  border-radius: $px;
+}
+
+@mixin conteiner($background) {
+  margin: 0 auto;
+  position: relative;
+  background: url($image_dir+$background) #fff no-repeat;
+  //background-attachment: fixed;
+  background-size: contain;
+  box-shadow: 0 0 15px #999;
+  -webkit-box-shadow: 0 0 15px #999;
+  width: 90%;
+  -moz-box-shadow: 0 0 15px #999;
+  width: 90%;
+}
+
+@mixin logo($width, $height, $background) {
+  width: $width;
+  height: $height;
+  background: url($image_dir+$background) no-repeat top center;
+  margin: auto;
+}
+
+@mixin price($width, $height, $background) {
+  width: $width;
+  height: $height;
+  background: url($image_dir+$background) no-repeat;
+  margin: auto;
+}
+
+@mixin tsize($fsize, $color, $lh) {
+  font-size: $fsize;
+  color: $color;
+  line-height: $lh;
+}
+
+@mixin footer($background) {
+  height: 40px;
+  background: url($image_dir+$background) repeat-x;
+  overflow: hidden;
+}
+
+@mixin bradius($atr1) {
+  border-radius: $atr1;
+  -webkit-border-radius: $atr1;
+  -moz-border-radius: $atr1;
+}

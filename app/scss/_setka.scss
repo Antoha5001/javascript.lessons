@@ -1,0 +1,63 @@
+.wrapper{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 15px;
+	//width: 100%;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+	border: 1px solid black;
+	//margin: auto;
+}
+.col{
+	min-height: 100px;
+	width: calc(8.3333% - 30px);
+	box-sizing: border-box;
+	text-align: center;
+	background: green;
+	margin: 15px;
+}
+.col-lg-1{width:calc(8.333333333333334% - 30px);}
+.col-lg-2{width:calc(16.666666666666664% - 30px);}
+.col-lg-3{width:calc(25% - 30px);}
+.col-lg-4{width:calc(33.333333333333336% - 30px);}
+.col-lg-5{width:calc(41.666666666666667% - 30px);}
+.col-lg-6{width:calc(50% - 30px);}
+.col-lg-7{width:calc(58.333333333333336% - 30px);}
+.col-lg-8{width:calc(66.666666666666667% - 30px);}
+.col-lg-9{width:calc(75% - 30px);}
+.col-lg-10{width:calc(83.333333333333334% - 30px);}
+.col-lg-11{width:calc(91.666666666666667% - 30px);}
+.col-lg-12{width:calc(100% - 30px);}
+
+@media screen and (max-width: 960px) {
+	.col-md-1{width:calc(8.333333333333334% - 30px);}
+	.col-md-2{width:calc(16.666666666666664% - 30px);}
+	.col-md-3{width:calc(25% - 30px);}
+	.col-md-4{width:calc(33.333333333333336% - 30px);}
+	.col-md-5{width:calc(41.666666666666667% - 30px);}
+	.col-md-6{width:calc(50% - 30px);}
+	.col-md-7{width:calc(58.333333333333336% - 30px);}
+	.col-md-8{width:calc(66.666666666666667% - 30px);}
+	.col-md-9{width:calc(75% - 30px);}
+	.col-md-10{width:calc(83.333333333333334% - 30px);}
+	.col-md-11{width:calc(91.666666666666667% - 30px);}
+	.col-md-12{width:calc(100% - 30px);}
+}
+
+@media screen and (max-width: 640px) {
+	.col-xs-1{width:calc(8.333333333333334% - 30px);}
+	.col-xs-2{width:calc(16.666666666666664% - 30px);}
+	.col-xs-3{width:calc(25% - 30px);}
+	.col-xs-4{width:calc(33.333333333333336% - 30px);}
+	.col-xs-5{width:calc(41.666666666666667% - 30px);}
+	.col-xs-6{width:calc(50% - 30px);}
+	.col-xs-7{width:calc(58.333333333333336% - 30px);}
+	.col-xs-8{width:calc(66.666666666666667% - 30px);}
+	.col-xs-9{width:calc(75% - 30px);}
+	.col-xs-10{width:calc(83.333333333333334% - 30px);}
+	.col-xs-11{width:calc(91.666666666666667% - 30px);}
+	.col-xs-12{width:calc(100% - 30px);}
+}

@@ -1,0 +1,16 @@
+@import "_library";
+@import "_reset";
+@import "_setka";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=cyrillic);
+@font-face {
+	font-family: nautilys;
+	src: url("../fonts/nautiluspompilius.ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+p{
+	//color: red;
+}
+body{
+	//background: green;
+}
