@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<style>
+	 #field {
+		 width: 200px;
+		 border: 10px groove black;
+		 background-color: #00FF00;
+		 position: relative;
+	 }
+
+	 #ball {
+		 position: absolute;
+	 }
+ </style>
+</head>
+
+<body>
+
+	<div id="field">
+     <img src="https://js.cx/clipart/ball.svg" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   </div>
+
+	<style>
+
+	</style>
+	<script type="text/javascript">
+		(function() {
+			var body = document.body,
+					field = document.getElementById("field"),
+					ball = document.getElementById("ball");
+	ball.style.top = field.clientHeight/2 - 20+"px";
+	ball.style.left = field.clientWidth/2 - 20+"px";
+console.log(ball.offsetWidth);
+		})();
+	</script>
+</body>
+
+</html>
