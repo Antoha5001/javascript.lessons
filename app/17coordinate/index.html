@@ -8,6 +8,7 @@
   body {
     padding: 20px 0 0 20px;
     cursor: pointer;
+    height: 2500px;
   }
 
   #field {
@@ -32,6 +33,35 @@
     text-indent: -20px;
     font: 12px/1 monospace;
   }
+	.note {
+  position: absolute;
+  z-index: 1000;
+  padding: 5px;
+  border: 1px solid black;
+  background: white;
+  text-align: center;
+  font: italic 14px Georgia;
+}
+
+blockquote {
+  background: #eee;
+  border-left: 10px solid #ccc;
+  margin: 0 0 0 100px;
+  padding: .5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  display: inline-block;
+  white-space: pre;
+  border-top: 1px solid black;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: .1em;
+  margin-right: .25em;
+  vertical-align: -.4em;
+}
  </style>
  <script>
     document.onclick = function(e) { // выводит текущие координаты при клике
@@ -62,10 +92,24 @@
    <div class="triangle-right" style="left:190px;top:-40px">4</div>
    <div class="triangle-right" style="left:200px;top:-42px">2</div>
 
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sint atque dolorum fuga ad incidunt voluptatum error fugiat animi amet! Odio temporibus nulla id unde quaerat dignissimos enim nisi rem provident molestias sit tempore omnis recusandae
+   esse sequi officia sapiente.</p>
+
+
+ <blockquote>
+   - Что на завтрак, Бэрримор? <br>- Овсянка, сэр.  <br>- А на обед?  <br>- Овсянка, сэр.  <br>- Ну а на ужин?  <br>- Котлеты, сэр.  <br>- Уррра!!!  <br>- Из овсянки, сэр!!!
+ </blockquote>
+
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sint atque dolorum fuga ad incidunt voluptatum error fugiat animi amet! Odio temporibus nulla id unde quaerat dignissimos enim nisi rem provident molestias sit tempore omnis recusandae
+   esse sequi officia sapiente.</p>
+
+
+
 
 	<script type="text/javascript">
 		(function() {
-		var doc = document,
+      "use strict";
+	/*	var doc = document,
     field = doc.getElementById('field'),
     rect = field.getBoundingClientRect(),
     one = rect.left +":"+rect.top,
@@ -75,7 +119,104 @@
 console.log(one);
 console.log(two);
 console.log(three);
-console.log(four);
+console.log(four);*/
+/**
+    * Позиционирует элемент elem относительно элемента anchor, как указано в
+    * в position.
+    *
+    * @param {Node} anchor     Элемент-якорь, относительно которого задана позиция
+    * @param {string} position Позиция: одно из top/right/bottom
+    * @param {Node} elem       Элемент, который будет позиционирован
+    */
+    function getCoords(elem) {
+   // (1)
+   var box = elem.getBoundingClientRect();
+
+   var body = document.body;
+   var docEl = document.documentElement;
+
+   // (2)
+   var scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
+   var scrollLeft = window.pageXOffset || docEl.scrollLeft || body.scrollLeft;
+
+   // (3)
+   var clientTop = docEl.clientTop || body.clientTop || 0;
+   var clientLeft = docEl.clientLeft || body.clientLeft || 0;
+
+   // (4)
+   var top = box.top + scrollTop - clientTop;
+   var left = box.left + scrollLeft + clientLeft;
+   var bottom = box.bottom + scrollTop;
+   var right = box.right + scrollLeft;
+
+   return {
+   top: top,
+   left: left,
+   bottom: bottom,
+   right: right,
+   };}
+
+   function showNote(anchor, position, html) {
+
+     var block = document.createElement("div");
+     block.innerHTML = html;
+     block.classList.add("note");
+     document.body.appendChild(block);
+     positionAt(anchor, position, block);
+   }
+
+   function positionAt(anchor, position, elem) {
+
+     var coordinates = getCoords(anchor);
+
+     switch (position) {
+       case "top-out":
+           elem.style.top = (coordinates.top - elem.offsetHeight)+"px";
+           elem.style.left = coordinates.left+"px";
+           console.log(elem.offsetHeight);
+           break;
+       case "right-out":
+           elem.style.top = coordinates.top +"px";
+           elem.style.left = coordinates.right+"px";
+           break;
+       case "bottom-out":
+           elem.style.top = coordinates.bottom +"px";
+           elem.style.left = coordinates.left+"px";
+           break;
+       case "top-in":
+           elem.style.top = coordinates.top + "px";
+           elem.style.left = coordinates.left+"px";
+           anchor.style.position = "relative";
+           //anchor.appendChild("elem");
+           break;
+       case "right-in":
+           elem.style.top = coordinates.top +"px";
+           elem.style.left = coordinates.right - elem.offsetWidth+"px";
+           anchor.style.position = "relative";
+           //anchor.appendChild("elem");
+           break;
+       case "bottom-in":
+           elem.style.top = coordinates.bottom- elem.offsetHeight +"px";
+           elem.style.left = coordinates.left+"px";
+           //anchor.appendChild("elem");
+           break;
+     }
+   }
+
+   /**
+    * Показывает заметку с текстом html на позиции position
+    * относительно элемента anchor
+    */
+
+   // проверка работоспособности
+   var blockquote = document.querySelector('blockquote');
+
+   showNote(blockquote, "top-out", "заметка сверху");
+   showNote(blockquote, "right-out", "заметка справа");
+   showNote(blockquote, "top-in", "заметка сверху внутри");
+   showNote(blockquote, "right-in", "заметка справа внутри");
+   showNote(blockquote, "bottom-out", "заметка снизу");
+   showNote(blockquote, "bottom-in", "заметка снизу внутри");
 		})();
 	</script>
 </body>
