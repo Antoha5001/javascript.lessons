@@ -5,7 +5,17 @@
 	<meta charset="utf-8">
 	<title>Home</title>
 	<style>
-
+.open{
+	display: none;
+}
+.menu::before{
+	content: "▼";
+	color: green;
+}
+.close::before{
+	content: "▶";
+	color: green;
+}
  </style>
  <script>
 
@@ -19,16 +29,29 @@
   <input type="button" id="hider" value="Нажмите, чтобы спрятать текст" />
 
   <div id="text">Текст</div>
+<br>
+	<span id="menu" class="menu">  Сладости (нажми меня)!</span>
+ <ul>
+	 <li>Торт</li>
+	 <li>Пончик</li>
+	 <li>Пирожное</li>
+ </ul>
 
 	<script type="text/javascript">
 		(function() {
       "use strict";
 		var button = document.getElementById('hider'),
-				text = document.getElementById('text');
+				text = document.getElementById('text'),
+				menu = document.getElementById('menu');
 
 				button.addEventListener("click", function() {
 					this.style.display = "none";
-			})
+			});
+			menu.addEventListener("click", function () {
+					this.nextElementSibling.classList.toggle("open");
+					this.classList.toggle("close");
+					console.log(this.nextElementSibling);
+			});
 		})();
 	</script>
 </body>
