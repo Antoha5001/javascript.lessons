@@ -39,6 +39,13 @@
             cursor: pointer;
             position: absolute;
         }
+        .tree span:hover{
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .hiden{
+            display: none;
+        }
      </style>
  <script>
 
@@ -66,10 +73,48 @@
         </p>
     </div>
 </div>
+<ul class="tree">
+    <li><span>Животные</span>
+        <ul>
+            <li><span>Млекопитающие</span>
+                <ul>
+                    <li><span>Коровы</span></li>
+                    <li><span>Ослы</span></li>
+                    <li><span>Собаки</span></li>
+                    <li><span>Тигры</span></li>
+                </ul>
+            </li>
+            <li><span>Другие</span>
+                <ul>
+                    <li><span>Змеи</span></li>
+                    <li><span>Птицы</span></li>
+                    <li><span>Ящерицы</span></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><span>Рыбы</span>
+        <ul>
+            <li><span>Аквариумные</span>
+                <ul>
+                    <li><span>Гуппи</span></li>
+                    <li><span>Скалярии</span></li>
+                </ul>
+
+            </li>
+            <li><span>Морские</span>
+                <ul>
+                    <li><span>Морская форель</span></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
 <script type="text/javascript">
     (function() {
       "use strict"
-      var wrapper = document.getElementById("wrapper");
+      var wrapper = document.getElementById("wrapper"),
+            tree = document.querySelector(".tree");
 
       wrapper.onclick = function (e) {
           var target = e.target;
@@ -77,7 +122,15 @@
               target.parentElement.style.display = "none";
           }
           return;
-      }
+      };
+
+      tree.addEventListener("click", function (e) {
+          if(e.target.nodeName === "SPAN"){
+              if(e.target.nextElementSibling)
+              e.target.nextElementSibling.classList.toggle("hiden");
+          }
+          return;
+      });
     })();
 </script>
 </body>
