@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <style>
+        body{
+            height: 2000px;
+        }
+        button{
+          /*  position: relative;*/
+        }
+        .tooltip{
+            background: #ddd;
+            position: absolute;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+     </style>
+ <script>
+
+  </script>
+</head>
+<body>
+<p>ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя</p>
+<p>ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя</p>
+
+<button data-tooltip="подсказка длиннее, чем элемент">Короткая кнопка</button>
+<button data-tooltip="HTML<br>подсказка">Ещё кнопка</button>
+
+<p>Прокрутите страницу, чтобы ссылки были вверху и проверьте, правильно ли показываются подсказки.</p>
+<script type="text/javascript">
+    (function() {
+      "use strict";
+      var showingTooltip;
+        document.addEventListener("mouseover", function (e) {
+            var target = e.target,
+            toolTip = target.hasAttribute("data-tooltip");
+
+          if(!toolTip) return;
+
+              var elem = document.createElement("div"),
+              coords = target.getBoundingClientRect();
+              elem.innerHTML = e.target.getAttribute("data-tooltip");
+              elem.classList.add("tooltip");
+              document.body.appendChild(elem);
+            elem.style.top = coords.top - elem.offsetHeight + "px";
+            elem.style.left = coords.left +"px";
+            console.log(elem.offsetTop);
+            if(elem.offsetTop < 0){
+                elem.style.top = target.offsetHeight  + target.offsetTop+5 + "px";
+            }
+              showingTooltip = elem;
+
+        });
+        document.addEventListener("mouseout", function (e) {
+        /*    var target = e.target,
+                toolTip = target.hasAttribute("data-tooltip");
+
+            if(!toolTip) return;*/
+          if(showingTooltip){
+              document.body.removeChild(showingTooltip);
+              showingTooltip = null;
+          }
+        return;
+
+        });
+
+    })();
+</script>
+</body>
+
+</html>

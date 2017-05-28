@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <style>
+        body{
+            height: 2000px;
+        }
+        #contents {
+            padding: 5px;
+            border: 1px green solid;
+        }
+     </style>
+ <script>
+
+  </script>
+</head>
+<body>
+<fieldset id="contents">
+    <legend>#contents</legend>
+    <p>
+        Как насчет почитать <a href="http://wikipedia.org">Википедию</a>, или посетить <a href="http://w3.org"><i>W3.org</i></a> и узнать про современные стандарты?
+    </p>
+</fieldset>
+
+<script type="text/javascript">
+    (function() {
+      "use strict";
+        var contents = document.getElementById("contents");
+      /*  contents.addEventListener("click", function (e) {
+
+            function handleLink(link) {
+                var event = confirm("Вы уверены, что хотите перейти на "+link+"?");
+                if (!event) return false;
+            }
+
+            var target = e.target;
+            while(target != this){
+                if(target.tagName == "A"){
+                    console.log(handleLink(target.getAttribute("href")));
+                    return handleLink(target.getAttribute("href"));
+
+                }
+                target = target.parentNode;
+            }
+   return false;
+    });*/
+        contents.onclick = function (e) {
+
+            function handleLink(link) {
+                var event = confirm("Вы уверены, что хотите перейти на "+link+"?");
+                if (!event) return false;
+            }
+
+            var target = e.target;
+            while (target != this){
+                if(target.tagName == "A"){
+                    console.log(handleLink(target.getAttribute("href")));
+                    return handleLink(target.getAttribute("href"));
+                }
+                target = target.parentNode;
+            }
+   // return false;
+    };
+
+    })();
+</script>
+</body>
+
+</html>
