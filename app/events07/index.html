@@ -5,66 +5,96 @@
     <meta charset="utf-8">
     <title>Home</title>
     <style>
-        body{
+        body {
             height: 2000px;
         }
+
         #contents {
             padding: 5px;
             border: 1px green solid;
         }
-     </style>
- <script>
+    </style>
+    <script>
 
-  </script>
+    </script>
 </head>
 <body>
 <fieldset id="contents">
     <legend>#contents</legend>
     <p>
-        Как насчет почитать <a href="http://wikipedia.org">Википедию</a>, или посетить <a href="http://w3.org"><i>W3.org</i></a> и узнать про современные стандарты?
+        Как насчет почитать <a href="http://wikipedia.org">Википедию</a>, или посетить <a
+            href="http://w3.org"><i>W3.org</i></a> и узнать про современные стандарты?
     </p>
 </fieldset>
 
+<p><img id="largeImg" src="https://js.cx/gallery/img1-lg.jpg" alt="Large image"></p>
+
+<div id="thumbs">
+    <!-- При наведении на изображение показывается встроенная подсказка браузера (title) -->
+    <a href="https://js.cx/gallery/img2-lg.jpg" title="Image 2"><img src="https://js.cx/gallery/img2-thumb.jpg"></a>
+    <a href="https://js.cx/gallery/img3-lg.jpg" title="Image 3"><img src="https://js.cx/gallery/img3-thumb.jpg"></a>
+    <a href="https://js.cx/gallery/img4-lg.jpg" title="Image 4"><img src="https://js.cx/gallery/img4-thumb.jpg"></a>
+    <a href="https://js.cx/gallery/img5-lg.jpg" title="Image 5"><img src="https://js.cx/gallery/img5-thumb.jpg"></a>
+    <a href="https://js.cx/gallery/img6-lg.jpg" title="Image 6"><img src="https://js.cx/gallery/img6-thumb.jpg"></a>
+</div>
+
 <script type="text/javascript">
-    (function() {
-      "use strict";
-        var contents = document.getElementById("contents");
-      /*  contents.addEventListener("click", function (e) {
+    (function () {
+        "use strict";
+        var contents = document.getElementById("contents"),
+            thumbs = document.getElementById("thumbs"),
+            largeImg = document.getElementById("largeImg"),
+            largeImgSrc = largeImg.getAttribute("src"),
+            largeImgSrcSlice = largeImgSrc.slice(0,26);
+        /*  contents.addEventListener("click", function (e) {
 
-            function handleLink(link) {
-                var event = confirm("Вы уверены, что хотите перейти на "+link+"?");
-                if (!event) return false;
-            }
+         function handleLink(link) {
+         var event = confirm("Вы уверены, что хотите перейти на "+link+"?");
+         if (!event) return false;
+         }
 
-            var target = e.target;
-            while(target != this){
-                if(target.tagName == "A"){
-                    console.log(handleLink(target.getAttribute("href")));
-                    return handleLink(target.getAttribute("href"));
+         var target = e.target;
+         while(target != this){
+         if(target.tagName == "A"){
+         console.log(handleLink(target.getAttribute("href")));
+         return handleLink(target.getAttribute("href"));
 
-                }
-                target = target.parentNode;
-            }
-   return false;
-    });*/
+         }
+         target = target.parentNode;
+         }
+         return false;
+         });*/
         contents.onclick = function (e) {
 
             function handleLink(link) {
-                var event = confirm("Вы уверены, что хотите перейти на "+link+"?");
+                var event = confirm("Вы уверены, что хотите перейти на " + link + "?");
                 if (!event) return false;
             }
 
             var target = e.target;
-            while (target != this){
-                if(target.tagName == "A"){
+            while (target != this) {
+                if (target.tagName == "A") {
                     console.log(handleLink(target.getAttribute("href")));
                     return handleLink(target.getAttribute("href"));
                 }
                 target = target.parentNode;
             }
-   // return false;
-    };
-
+            // return false;
+        };
+        thumbs.onclick = function (e) {
+            var target = e.target;
+            if (target.nodeName == "A" || target.nodeName == "IMG"){
+                var src = target.getAttribute("href") || target.getAttribute("src"),
+                    srcSlice = src.slice(0,26);
+                if(largeImgSrcSlice != srcSlice){
+                    largeImg.setAttribute("src", srcSlice+"-lg.jpg");
+                }
+                e.preventDefault();
+                return;
+            }
+            return;
+        };
+        console.log(largeImgSrcSlice);
     })();
 </script>
 </body>
