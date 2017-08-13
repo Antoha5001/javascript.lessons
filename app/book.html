@@ -10,8 +10,23 @@
   <a href="onclick: console.log('123')">Открыть окно</a>
 </body>
 <script type="text/javascript">
-  for(var i = 2, j = 5; i < j; i++, j--){
-    console.log(i+j+"<br>");
+  // for(var i = 2, j = 5; i < j; i++, j--){
+  //   console.log(i+j+"<br>");
+  // }
+  var customer = {
+    address1:"Попова",
+    address2:"Ленина",
+    address3:"Пролетарская"
+  };
+
+  var adr = "",i=0;
+  for1: for (i; i <4;i++){
+      if(!adr) {
+          adr = customer["address"+ i] +"\n";
+          continue;
+      }
+      console.log(adr = customer["address"+i])+"\n";
   }
+
 </script>
 </html>
