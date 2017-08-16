@@ -4,13 +4,100 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style>
+		#div1 {
+			width: 200px;
+			height: 200px;
+			background: #d1ffd1;
+		}
+
+		#div1,
+		#div2,
+		#div3,
+		#div4 {
+			margin: 20px;
+			border: 1px solid #eee;
+		}
+
+	</style>
 </head>
 
 <body>
-
+	<h2>Заголовок 1</h2>
+	<div id="div1">
+	</div>
+	<div id="div2">
+		<h2>Заголовок 2</h2>
+	</div>
+	<div id="div3">
+		<h2>Заголовок 3</h2>
+	</div>
+	<div id="div4">
+		<h2>Заголовок 4</h2>
+	</div>
+	<div>Пользователи:</div>
+	<ul>
+		<li>Маша</li>
+		<li>Вовочка</li>
+		<li></li>
+	</ul>
+	<table>
+    <tr>
+      <td>1:1</td>
+      <td>2:1</td>
+      <td>3:1</td>
+      <td>4:1</td>
+      <td>5:1</td>
+    </tr>
+    <tr>
+      <td>1:2</td>
+      <td>2:2</td>
+      <td>3:2</td>
+      <td>4:2</td>
+      <td>5:2</td>
+    </tr>
+    <tr>
+      <td>1:3</td>
+      <td>2:3</td>
+      <td>3:3</td>
+      <td>4:3</td>
+      <td>5:3</td>
+    </tr>
+    <tr>
+      <td>1:4</td>
+      <td>2:4</td>
+      <td>3:4</td>
+      <td>4:4</td>
+      <td>5:4</td>
+    </tr>
+    <tr>
+      <td>1:5</td>
+      <td>2:5</td>
+      <td>3:5</td>
+      <td>4:5</td>
+      <td>5:5</td>
+    </tr>
+  </table>
 	<script>
+		var text = "Lorem ipsum dolor sit amet.",
+				head = document.documentElement.childNodes[0],
+				body = document.body,
+				ul = body.children[body.children.length - 2],
+				li = ul.children[1],
+				lastLi = ul.lastChild,
+				table = document.getElementsByTagName("table")[0],
+				tr = table.firstElementChild.children;
 
-
+console.log(head);
+console.log(ul);
+console.log(li);
+console.log(tr);
+if(!lastLi.firstChild){
+	alert("Элемент пустой!");
+}
+for(var i = 0; i < tr.length; i++){
+	tr[i].children[i].style.backgroundColor = "red";
+}
 	</script>
 </body>
 
