@@ -23,6 +23,7 @@
 </head>
 
 <body>
+
 	<h2>Заголовок 1</h2>
 	<div id="div1">
 	</div>
@@ -74,10 +75,56 @@
       <td>1:5</td>
       <td>2:5</td>
       <td>3:5</td>
-      <td>4:5</td>
+	<td>4:5</td>
       <td>5:5</td>
     </tr>
   </table>
+
+  <html><head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <form name="search">
+    <label>Поиск по сайту:
+      <input type="text" name="search">
+    </label>
+    <input type="submit" value="Искать!">
+  </form>
+
+  <hr>
+
+  <form name="search-person">
+    Поиск по посетителям:
+    <table id="age-table">
+      <tbody><tr>
+        <td>Возраст:</td>
+        <td id="age-list">
+          <label>
+            <input type="radio" name="age" value="young">до 18</label>
+          <label>
+            <input type="radio" name="age" value="mature">18-50</label>
+          <label>
+            <input type="radio" name="age" value="senior">более 50</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Дополнительно:</td>
+        <td>
+          <input type="text" name="info[0]">
+          <input type="text" name="info[1]">
+          <input type="text" name="info[2]">
+        </td>
+      </tr>
+
+    </tbody></table>
+
+    <input type="submit" value="Искать!">
+  </form>
+
+
+</body></html>
 	<script>
 		var text = "Lorem ipsum dolor sit amet.",
 				head = document.documentElement.childNodes[0],
@@ -86,18 +133,21 @@
 				li = ul.children[1],
 				lastLi = ul.lastChild,
 				table = document.getElementsByTagName("table")[0],
-				tr = table.firstElementChild.children;
+				tr = table.firstElementChild.children,
+				a = document.getElementById("id");
 
 console.log(head);
 console.log(ul);
 console.log(li);
 console.log(tr);
+console.log();
 if(!lastLi.firstChild){
 	alert("Элемент пустой!");
 }
 for(var i = 0; i < tr.length; i++){
 	tr[i].children[i].style.backgroundColor = "red";
 }
+
 	</script>
 </body>
 
