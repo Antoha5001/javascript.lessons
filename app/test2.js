@@ -16,7 +16,7 @@ if(!lastLi.firstChild){
 }
 for(var i = 0; i < tr.length; i++){
     tr[i].children[i].style.backgroundColor = "red";}*/
-
+var a = {x:"xxx"};
 var about = document.getElementsByTagName("h2")[0],
     widget = document.getElementById("widget"),
     dataWidget = widget.getAttribute("data-widget-name"),
@@ -30,3 +30,5 @@ for (var i = 0; i < link.length; i++ ){
 
     link[i].classList.add("external");
 }
+// Object.preventExtensions(a);
+var b = JSON.stringify(a);
