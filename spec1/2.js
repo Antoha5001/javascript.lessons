@@ -18,8 +18,12 @@ function createDiv(width, height, color) {
 
 function createCircle(min, max, color) {
     var diametr =Math.random()*(max-min)+min;
+    var diametr =Math.random()* 100 + 50;
     var div = document.createElement("div");
-    div.style.cssText = "width:"+diametr+"px;height:"+diametr+"px;background-color:"+color+";border-radius:50%;";
+    // div.style.cssText = "width:"+diametr+"px;height:"+diametr+"px;background-color:"+color+";border-radius:50%;";
+    div.style.cssText = `width: ${diametr}px;\
+                         height: ${diametr}px;\
+                         background-color: ${color}  ;border-radius:50%;`;
     document.body.appendChild(div);
 };
 
