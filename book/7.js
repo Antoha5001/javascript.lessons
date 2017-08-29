@@ -1,20 +1,29 @@
 "Use strict";
 (function() {
-	console.log(7);
+
 	var o = {
 		first: "first_",
 		second: "second_"
 	};
-	var keys = Object.keys(o),
+	// var b = new Object(o);
+	var b = Object.create(o);
+	b.third="third";
+
+	var keys = Object.keys(b),
 	values = [];
 
-	console.log(keys);
+	console.log(b.first);
 
 	for (var i = 0; i < keys.length; i++) {
 		var key = keys[i];
-		values[i] = o[key];
+		values[i] = b[key];
 	}
+values[3] = 15;
+	//console.log(values);
 
+	for (var i in values) {
+		console.log(values[i]);
+	}
 	console.log(values);
 
 })();
