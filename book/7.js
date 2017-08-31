@@ -50,3 +50,11 @@ console.log(a.splice(3, 0 ,"four","five","six"));
 console.log(a);
 
 })();
+var b = document.querySelectorAll(".div");
+b.forEach(function (e) {
+    var top = e.getBoundingClientRect();
+    console.log(top.top);
+    if (top.top < 20) e.style.backgroundColor = "green";
+});
+
+var a = [3,4,5,6,7,8,9,10];
