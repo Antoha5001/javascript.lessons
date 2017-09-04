@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	</title>
+</head>
+<body>
+	<script type="text/javascript">
+	/*	var a = document.body;
+		var b = 3;
+		var c = a+b;
+
+		console.log(typeof("a"),
+			typeof(1),
+			typeof({}),
+			typeof([]),
+			typeof(function function_name(argument) {
+				// body...
+			})
+			);
+		console.log(parseInt("15"));
+		console.log(parseFloat("15.3"));
+		console.log(typeof((12).toString()));		
+		var count = 0;
+		for (var i = 0; i <= 10; i++) {
+			count += i;
+		}
+		console.log(count);*/
+		/*
+		var age = prompt("Сколько вам лет?", 0);
+
+		if (parseInt(age) < 18){
+			console.log('Рано ещё!');
+		} else {
+			console.log('Уже можно!');
+		}*/
+/*
+		function myFunction(a){
+			if (!a){
+			console.log('Функция вызвана без аргументома');
+			}
+			else console.log('Функция вызвана с аргументом');
+		}
+
+		myFunction();
+		myFunction(123);
+*/
+/*
+function returnNumber(start,end) {
+
+	if (typeof(start) === 'number'){
+
+		for (var i = start; i <= end; i++) {
+				console.log(i/2);		
+		}
+
+	}
+
+}
+
+function getEven(start,end){
+
+
+	if (typeof(start) === 'number'){
+
+		for (var i = start; i <= end; i++) {
+			if (i % 2 == 0) {
+
+				console.log(i);	
+			}
+
+			//else continue;	
+		} 
+	}
+}
+function getThird(start,end){
+
+
+	if (typeof(start) === 'number'){
+
+		for (var i = start; i <= end; i++) {
+			if (i % 3 == 0) {
+
+				console.log(i);	
+			}
+
+			//else continue;	
+		} 
+	}
+}
+function getFibo(start,end){
+
+
+	if (typeof(start) === 'number'){
+
+		for (var i = start; i <= end; i++) {
+
+			var f = (i*i-1)+(i*i-2)
+
+				console.log(f);	
+			
+
+			//else continue;	
+		} 
+	}
+}
+// returnNumber(15,22);
+getThird(3,20);
+getFibo(0,20);*/
+/*
+function myFun1(){
+	console.log('Вызвана функция 1');
+	myFun2();
+}
+
+function myFun2(){
+	console.log('Вызвана функция 2');
+
+}
+
+myFun1();*/
+/*
+function kesha(){
+	console.log('Кеша');
+}	
+
+setTimeout(kesha, 3000);
+console.log('Попугай');
+*/
+/*
+var i = 0;
+function timer(){
+
+	if (i <= 10){
+		console.log(i);
+		i++;
+		setTimeout(timer, 100);		
+	}
+
+}
+
+timer();*/
+
+function randomRGB(){
+
+	return "rgb("+ Math.floor(Math.random()*255) +","+ Math.floor(Math.random()*255) +","+ Math.floor(Math.random()*255) +")";
+
+}
+
+function getRect(width, height){
+	var rect = "<div style = 'width:"+width+"px; height:"+height+"px;background-color:red;'></div>";
+	document.write(rect);
+}
+
+function getCircles(min, max){
+	
+		for(var i = 0; i <=200; i++){var radius = Math.floor(Math.random() * (max-min)+min),
+		circles = "<div style = 'width:"+radius+"px; height:"+radius+"px;background-color:"+ randomRGB() +";border-radius:50%;display:inline-block;'></div>";
+			document.write(circles);
+		}
+
+	console.log(radius);
+}
+
+//getRect(100,50);
+getCircles(50,150);
+</script>
+</body>
+</html>
