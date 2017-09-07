@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9e12798-a93d-4ec3-8266-09ac48f2e6af" name="Default" comment="" />
+    <list default="true" id="d9e12798-a93d-4ec3-8266-09ac48f2e6af" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/10.js" afterPath="$PROJECT_DIR$/book/10.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/10_regexp.html" afterPath="$PROJECT_DIR$/book/10_regexp.html" />
+    </list>
     <ignored path=".idea/" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +28,12 @@
     <favorites_list name="javascript.lessons" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="10_regexp.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/10_regexp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="12" column="686" lean-forward="false" selection-start-line="12" selection-start-column="686" selection-end-line="12" selection-end-column="686" />
               <folding />
             </state>
           </provider>
@@ -39,8 +42,8 @@
       <file leaf-file-name="10.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book/10.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -139,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,7 +164,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -311,6 +314,7 @@
       <workItem from="1504502282760" duration="4471000" />
       <workItem from="1504582341023" duration="631000" />
       <workItem from="1504583366409" duration="1121000" />
+      <workItem from="1504772527562" duration="5048000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1503850627135</created>
@@ -323,7 +327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109505000" />
+    <option name="totallyTimeSpent" value="114553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,7 +343,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2271715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23014106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814372" sideWeight="0.50259835" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -702,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,22 +721,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/10_regexp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="12" column="686" lean-forward="false" selection-start-line="12" selection-start-column="686" selection-end-line="12" selection-end-column="686" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/10.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
           <folding />
         </state>
       </provider>
