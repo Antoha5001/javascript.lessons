@@ -26,7 +26,7 @@ function createCircle(min, max, color) {
 	var diametr = Math.random() * 100 + 50;
 	var div = document.createElement("div");
 	// div.style.cssText = "width:"+diametr+"px;height:"+diametr+"px;background-color:"+color+";border-radius:50%;";
-	div.style.cssText =`width: ${diametr}px;\
+	div.style.cssText = `width: ${diametr}px;\
 						height: ${diametr}px;\
 						background-color: ${generateColor()}  ;border-radius:50%;`;
 
@@ -59,12 +59,41 @@ var kesha = {
 kesha.whatIsYourName();
 kesha.setAge(20);
 kesha.skolkoTebeLet();
+//
+// var cities = ["Moskow", "Anapa", "Berabidjan", "Kirov"];
+//
+// var arr = [];
+//
+// function isPalindrom(num) {
+// 	var oldNum = num, newNum = 0;
+//
+// 	while (num >0){
+// 		newNum = newNum * 10 + num % 10;
+// 		num = parseInt(num/10);
+// 	}
+// 	// return true;
+// 	if (oldNum == newNum){
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// }
+//
+// for (let x = 50; x <= 500; x++) {
+// 	// if (x %2 != 0){
+// 	// 	arr.push(x);
+// 	// }
+// 	if(isPalindrom(x)){
+// 		arr.push(x);
+// 	}
+// }
 
+// var result = isPalindrom(12321);
 
-
-
-
-
+var numbers = [1,2,3,4,5,6];
+numbers.map(function (elem) {
+	console.log(elem);
+})
 
 
 
