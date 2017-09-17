@@ -112,6 +112,22 @@ str.forEach(function (e) {
 });
 
 console.log(str);
+
+function colorSpan() {
+	var span = document.getElementsByTagName("span");
+
+	for (var i = 0; i < span.length; i++){
+		span[i].onclick = function () {
+			var color = this.style.color;
+			if(color != "red")	this.style.color = "red";
+			else this.style.color = "black";
+		}
+	}
+}
+
+colorSpan();
+
+
 	}
 })();
 
