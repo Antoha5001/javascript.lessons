@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<form action="" id="form">
+	<input type="text" name="email" placeholder="email" data-rule="required email">
+	<input type="text" name="phone" placeholder="+7()" data-rule="required phone">
+	<input type="password" name="password" placeholder="password" data-rule="required password">
+	<input type="checkbox" name="agree" data-rule="required">
+	<select name="city" data-rule="required">
+		<option value="" selected disabled>Select your city</option>
+		<option value="1">Barnaul</option>
+	</select>
+	<textarea name="message"  cols="30" rows="10" data-rule="required max" data-max="45"></textarea>
+	<button>Submit</button>
+</form>
+<script src="form-1.js"></script>
+</body>
+</html>
