@@ -3,20 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
+	<style>
+		.form-box{
+			padding: 20px;
+			border: 1px solid #a9a9a9;
+			position: absolute;
+			top:25%;
+			left: 25%;
+			height: 50%;
+			width: 50%;
+		}
+		#form input,#form textarea,#form select{
+			display: block;
+			margin: 10px auto;
+		}
+	</style>
 </head>
 <body>
-<form action="" id="form">
-	<input type="text" name="email" placeholder="email" data-rule="required email">
-	<input type="text" name="phone" placeholder="+7()" data-rule="required phone">
-	<input type="password" name="password" placeholder="password" data-rule="required password">
-	<input type="checkbox" name="agree" data-rule="required">
-	<select name="city" data-rule="required">
-		<option value="" selected disabled>Select your city</option>
-		<option value="1">Barnaul</option>
-	</select>
-	<textarea name="message"  cols="30" rows="10" data-rule="required max" data-max="45"></textarea>
-	<button>Submit</button>
-</form>
+<div class="form-box">
+	<form action="" id="form">
+		<input type="text" name="email" placeholder="email" data-rule="required email">
+		<input type="text" name="phone" placeholder="+7()" data-rule="required phone">
+		<input type="password" name="password" placeholder="password" data-rule="required password">
+		<input type="checkbox" name="agree" data-rule="required">
+		<select name="city" data-rule="required">
+			<option value="" selected disabled>Select your city</option>
+			<option value="1">Barnaul</option>
+		</select>
+		<textarea name="message"  cols="30" rows="10" data-rule="required max" data-max="45"></textarea>
+		<button>Submit</button>
+	</form>
+</div>
+
 <script src="form-1.js"></script>
 </body>
 </html>
