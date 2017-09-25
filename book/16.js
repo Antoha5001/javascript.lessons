@@ -10,6 +10,7 @@ function $_(el) {
 	if (document.getElementsByClassName(el)) return document.getElementsByClassName(el);
 	else if (document.querySelector(el)) return document.querySelector(el);
 }
+<<<<<<< HEAD
 
 function scrollToTitle(el) {
 	Array.prototype.forEach.call(el, function (e) {
@@ -53,3 +54,5 @@ window.addEventListener('scroll', function () {
 		}
 	});
 })
+=======
+>>>>>>> 2edd1c8d4625d0143495436ca10891653b059749
