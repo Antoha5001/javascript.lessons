@@ -3,11 +3,20 @@
 	function sendMessage(msg) {
 
 		var request = new XMLHttpRequest();
-		request.open('POST', '/log.php');
+		var a = new FormData();
+		request.open('GET', 'test.txt');
 		request.setRequestHeader('Content-Type','text/plain;charset=utf-8');
-		request.send(msg);
+		request.send('');
+		request.addEventListener('readystatechange',function () {
+			if(this.readyState === 4)	console.log(this);
+		});
 	}
 
 	sendMessage('sdfdsf');
+
+	var com = new EventSource('/');
+	// com.onmessage = function (e) {
+	// 	console.log(e);
+	// }
 
 })();

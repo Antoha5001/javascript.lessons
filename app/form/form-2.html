@@ -15,16 +15,42 @@
 			width: 50%;
 		}
 		#form input,#form textarea,#form select{
-			display: block;
+			/*display: block;*/
 			margin: 10px auto;
 		}
+		.input{
+
+		}
+		.input.error .field{
+			border: 1px solid red;
+		}
+		.input.error .message{
+			color: red;
+		}
+		.input.success .field{
+			border: 1px solid green;
+		}
+		.input.success .message{
+			color: green;
+		}
+
 	</style>
 </head>
 <body>
 <div class="form-box">
 
+	<form action="" method="post" id="form">
+		<div class="input error">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="email" class="field" data-error="Вы превысили лемит!">
+			<div class="message"></div>
+		</div>
+		<button>Send</button>
+		<button type="reset">Reset</button>
+	</form>
+
 </div>
 
-<script src="form-1.js"></script>
+<script src="form-2.js"></script>
 </body>
 </html>

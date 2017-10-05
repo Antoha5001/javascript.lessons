@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		.form-box{
+			padding: 20px;
+			border: 1px solid #a9a9a9;
+			position: absolute;
+			top:25%;
+			left: 25%;
+			min-height: 50%;
+			height: auto;
+			width: 50%;
+		}
+		#form input,#form textarea,#form select{
+			/*display: block;*/
+			margin: 10px auto;
+		}
+		.input{
+
+		}
+		.input.error .field{
+			border: 1px solid red;
+		}
+		.input.error .message{
+			color: red;
+		}
+		.input.success .field{
+			border: 1px solid green;
+		}
+		.input.success .message{
+			color: green;
+		}
+
+	</style>
+</head>
+<body>
+<div class="form-box">
+	<form class="form-box__form validate" action="" method="post" id="top_form">
+		<p class="form-box__zagolovok">Закажите звонок!</p>
+		<p class="form-box__podzagolovok">Отправте свой номер телефона и наш менеджер свяжится с Вами в
+			ближайшее время. </p>
+		<label for="name" class="form-box__input-name">Введите Ваше имя</label>
+		<input id="name" class="form-box__input" type="text" placeholder="" name="name" required>
+		<label for="tel" class="form-box__input-name">Номер телефона</label>
+		<input id="tel" class="form-box__input" type="tel" placeholder="+7" name="phone" required>
+		<!--                    <input class="form-box__input" type="text" name="coments" value="коментарий">-->
+		<input class="form-box__submit" type="submit" value="Заказать звонок!" name="submit">
+	</form>
+
+
+</div>
+
+<script src="my-form.js"></script>
+</body>
+</html>
