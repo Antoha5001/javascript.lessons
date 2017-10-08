@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e14771d-85eb-4031-9469-c3d2eb394983" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/19.html" afterPath="$PROJECT_DIR$/book/19.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/19.js" afterPath="$PROJECT_DIR$/book/19.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec2/less1.html" afterPath="$PROJECT_DIR$/spec2/less1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec2/less1.js" afterPath="$PROJECT_DIR$/spec2/less1.js" />
-    </list>
+    <list default="true" id="0e14771d-85eb-4031-9469-c3d2eb394983" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -195,12 +188,12 @@
       <workItem from="1507367677847" duration="725000" />
       <workItem from="1507378438924" duration="2711000" />
       <workItem from="1507432166444" duration="3163000" />
-      <workItem from="1507451293540" duration="4856000" />
+      <workItem from="1507451293540" duration="5455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43797000" />
+    <option name="totallyTimeSpent" value="44396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="644" y="127" width="1149" height="882" extended-state="0" />
