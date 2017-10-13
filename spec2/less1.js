@@ -96,6 +96,35 @@
 	triangle.show();
 	triangle.setDirection(45);
 
+	var count = 0;
+
+	function generateColor() {
+		return "#" + Math.floor(Math.random()* 16777215).toString(16);
+	}
+
+	function transformDiv() {
+		var style = this.style;
+		if(count === 0)	{
+			style.background = generateColor();
+		} else if (count === 1) {
+			style.borderRadius = Math.floor(Math.random()*50)+"px";
+		} else if (count === 2) {
+			style.background = "linear-gradient(to top, "+generateColor()+","+generateColor()+")";
+		}else if (count === 3) {
+			style.boxShadow = "5px 5px 10px rgb(50,50,50)";
+		}else if (count === 4) {
+			style.borderRadius = "50px";
+		} else{
+			this.style = "";
+			count = 0;
+			transformDiv();
+		}
+		count++;
+	}
+
+	var box = document.getElementById('box');
+
+	box.addEventListener('click',transformDiv);
 
 	/*
 	*  end less 2 __________
