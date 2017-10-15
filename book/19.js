@@ -8,6 +8,10 @@ $(document).ready(function () {
 			},500);
 		}
 	);
+	var p = $('p');
+	p.slice(2,5).css({
+		'color':'red'
+	});
 });
 
 })();

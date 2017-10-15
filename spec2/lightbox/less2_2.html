@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		.conteiner{
+			max-width: 650px;
+			min-height: 400px;
+			margin: 100px auto;
+			text-align: center;
+			background: lightslategray;
+		}
+		.my-image{
+			width: 200px;
+			height: auto;
+			vertical-align: top;
+			margin: 5px;
+			border: 1px solid orange;
+			cursor: pointer;
+		}
+		.my-image:hover{
+			border: 1px solid white;
+		}
+		.blackpanel{
+			position: absolute;
+			background: rgba(0,0,0,0.6);
+			/*width: 100%;*/
+			/*height: 100%;*/
+			top:0;
+			left: 0;
+			display: none;
+			bottom: 0;
+			right: 0;
+		}
+		.image-box{
+			width: 60vw;
+			margin: auto;
+			border-radius: 4px;
+		}
+		.is-visible{
+			display: flex;
+			flex-direction: row;
+			/*justify-content: center;*/
+			/*align-items: center;*/
+		}
+	</style>
+</head>
+<body>
+<!--<div class="button" type="button" class="abc-button">Кнопка</div>-->
+<div class="blackpanel"></div>
+<div class="conteiner">
+	<img src="image-02.jpg" class="my-image" alt="">
+	<img src="image-03.jpg" class="my-image" alt="">
+	<img src="image-04.jpg" class="my-image" alt="">
+	<img src="image-05.jpg" class="my-image" alt="">
+	<img src="image-06.jpg" class="my-image" alt="">
+	<img src="image-07.jpg" class="my-image" alt="">
+</div>
+<script src="less2_2.js"></script>
+</body>
+</html>
