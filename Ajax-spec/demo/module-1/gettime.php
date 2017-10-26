@@ -15,4 +15,5 @@ if (isset($_GET["delay"])){
 
 // Текущее время
 echo date("H:i:s");
+echo "<br>".time();
 ?>
