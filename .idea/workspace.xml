@@ -2,11 +2,244 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e14771d-85eb-4031-9469-c3d2eb394983" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/lab-1.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/xmlhttprequest.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js" afterPath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js" />
       <change beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html" afterPath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/lab-1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/Ajax-1.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/Ajax-1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/ajax-1.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/ajax-1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-1.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-1.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-3.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/gettime.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/gettime.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/hello.txt" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/styles.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/styles.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/xmlhttprequest.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-1/xmlhttprequest.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-2/books.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-2/books.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-2/create_db_books.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-2/create_db_books.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-2/demo-1-get.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-2/demo-1-get.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-2/demo-2-post.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-2/demo-2-post.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-2/demo-2-post.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-2/demo-2-post.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-2/getbooksbycat.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-2/getbooksbycat.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-2/searchbook.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-2/searchbook.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/addrecord.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/addrecord.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/books.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/books.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/create_db_gbook.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/create_db_gbook.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/demo_json_decode.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/demo_json_decode.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/demo_json_encode.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/demo_json_encode.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/gbook.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/gbook.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/gbookrecord.class.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/gbookrecord.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/getbooks.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/getbooks.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/getlastmsgs.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/getlastmsgs.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/json2.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/json2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/json_1.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/json_1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/json_1.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/json_1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/json_2.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/json_2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/json_3.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/json_3.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/json_3.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/json_3.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-3/phpinfo.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-3/phpinfo.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/demo-1-xml-rpc-message.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/demo-1-xml-rpc-message.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/demo-2-xml-rpc-server.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/demo-2-xml-rpc-server.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/demo-2-xml-rpc-server.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/demo-2-xml-rpc-server.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/demo-3-xml-rpc-server.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/demo-3-xml-rpc-server.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/demo-4-gbook-server.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/demo-4-gbook-server.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/demo-4-gbook.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/demo-4-gbook.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/gbook.class.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/gbook.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/gbook.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/gbook.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/gbook.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/gbook.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/message.class.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/message.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/messages.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/messages.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/template.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/template.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/xmlrpc.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/xmlrpc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/xmlrpc.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/xmlrpc.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/xmltools.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/xmltools.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-4/xslt.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-4/xslt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/.htaccess" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/.htaccess" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/demo-1-soap.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/demo-1-soap.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/demo-2-soap.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/demo-2-soap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/demo-2-soap.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/demo-2-soap.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/ClientCS.csproj" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/ClientCS.csproj" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/ClientCS.sln" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/ClientCS.sln" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/ClientCS.suo" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/ClientCS.suo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/Program.cs" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/Program.cs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/Properties/AssemblyInfo.cs" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/Properties/AssemblyInfo.cs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/Properties/Settings.Designer.cs" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/Properties/Settings.Designer.cs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/Properties/Settings.settings" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/Properties/Settings.settings" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/Web References/SampleServer/Reference.cs" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/Web References/SampleServer/Reference.cs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/Web References/SampleServer/Reference.map" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/Web References/SampleServer/Reference.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/Web References/SampleServer/SampleServer1.wsdl" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/Web References/SampleServer/SampleServer1.wsdl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/app.config" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/app.config" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.exe" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.exe.config" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.exe.config" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.pdb" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.pdb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.vshost.exe" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.vshost.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.vshost.exe.config" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/bin/Debug/ClientCS.vshost.exe.config" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/obj/ClientCS.csproj.FileList.txt" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/obj/ClientCS.csproj.FileList.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/obj/ClientCS.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/obj/ClientCS.csproj.FileListAbsolute.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/obj/Debug/ClientCS.exe" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/obj/Debug/ClientCS.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/obj/Debug/ClientCS.pdb" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/obj/Debug/ClientCS.pdb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/ClientCS/obj/Debug/TempPE/Web References.SampleServer.Reference.cs.dll" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/ClientCS/obj/Debug/TempPE/Web References.SampleServer.Reference.cs.dll" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/client.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/client.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/messages/getTime-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/messages/getTime-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/messages/getTime-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/messages/getTime-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/messages/sayHello-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/messages/sayHello-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/messages/sayHello-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/messages/sayHello-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/server.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/server.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-1/server.wsdl" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-1/server.wsdl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/books.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/books.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/bookservice.wsdl" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/bookservice.wsdl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/client.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/client.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/create_db_books.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/create_db_books.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/addBook-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/addBook-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/addBook-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/addBook-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/deleteBook-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/deleteBook-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/deleteBook-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/deleteBook-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/getBooks-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/getBooks-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/getBooks-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/getBooks-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/getCategories-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/getCategories-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/getCategories-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/getCategories-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/replaceBook-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/replaceBook-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/messages/replaceBook-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/messages/replaceBook-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/server.classes.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/server.classes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/server.database.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/server.database.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/server.functions.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/server.functions.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/server-2/server.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/server-2/server.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/xmltools.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/xmltools.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/xslt.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/xslt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/xslt/bookEditor.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/xslt/bookEditor.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/xslt/getBooks.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/xslt/getBooks.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-5/xslt/getCategories.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-5/xslt/getCategories.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/.htaccess" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/.htaccess" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/base_auth/.htaccess" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/base_auth/.htaccess" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/base_auth/.htpasswd" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/base_auth/.htpasswd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/base_auth/secret.txt" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/base_auth/secret.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/basic-auth.txt" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/basic-auth.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/demo-basic-auth.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/demo-basic-auth.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/demo-hash-rfc2898.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/demo-hash-rfc2898.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/demo-hash.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/demo-hash.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/history-test.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/history-test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/md4.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/md4.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/md5.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/md5.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-6/sha1.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/demo/module-6/sha1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000071426.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000071426.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000164735.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000164735.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000195293.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000195293.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000227419.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000227419.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000247713.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000247713.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000248516.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000248516.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000263529.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000263529.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000272391.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000272391.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000295565.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000295565.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000325542.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000325542.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000356516.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000356516.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000372094.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000372094.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000389766.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000389766.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000390078.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000390078.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000412657.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000412657.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000449465.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000449465.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000478162.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000478162.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000515574.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000515574.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000533556.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000533556.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000561693.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000561693.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000569827.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000569827.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000583545.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000583545.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000600798.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000600798.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000630025.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000630025.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000630186.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000630186.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/images/1000653244.jpg" afterPath="$PROJECT_DIR$/app/Ajax-spec/images/1000653244.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/books.txt" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/books.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/getbooktxt.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/getbooktxt.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-2-1/books.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-2-1/books.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-2-1/getcategories.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-2-1/getcategories.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-2-1/index.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-2-1/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-2-1/lab-2-1.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-2-1/lab-2-1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-2-2/books.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-2-2/books.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-2-2/getcategories.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-2-2/getcategories.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-2-2/index.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-2-2/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-2-2/lab-2-2.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-2-2/lab-2-2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-2-2/postbooksbycat.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-2-2/postbooksbycat.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/create_db_users.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/create_db_users.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/get_online_users.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/get_online_users.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/index.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/json2.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/json2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/lab-3.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/lab-3.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/ticket.class.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/ticket.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/user.class.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/user.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/user_auth.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/user_auth.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/userinfo.class.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/userinfo.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-3/users.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-3/users.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/delivery.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/delivery.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/index.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/lab-4-server.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/lab-4-server.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/lab-4.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/lab-4.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/messages/getDeliveryMethods.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/messages/getDeliveryMethods.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/order.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/order.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/xmlrpc.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/xmlrpc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/xmlrpc.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/xmlrpc.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/xmltools.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/xmltools.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-4/xslt.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-4/xslt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/.htaccess" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/.htaccess" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/index.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/lab-5.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/lab-5.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/books.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/books.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/bookservice.wsdl" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/bookservice.wsdl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/client.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/client.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/create_db_books.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/create_db_books.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/addToBasket-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/addToBasket-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/addToBasket-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/addToBasket-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/emptyBasket-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/emptyBasket-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/emptyBasket-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/emptyBasket-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/getBasket-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/getBasket-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/getBasket-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/getBasket-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/getBooks-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/getBooks-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/getBooks-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/getBooks-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/getCategories-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/getCategories-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/getCategories-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/getCategories-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/registerSession-request.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/registerSession-request.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/messages/registerSession-response.xml" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/messages/registerSession-response.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/server.classes.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/server.classes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/server.database.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/server.database.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/server.functions.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/server.functions.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/server.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/server.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/xslt/getBasket.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/xslt/getBasket.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/xslt/getBooks.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/xslt/getBooks.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/server/xslt/getCategories.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/server/xslt/getCategories.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/xmltools.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/xmltools.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-5/xslt.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-5/xslt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/index.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/json2.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/json2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/md5.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/md5.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/server/create_db_users.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/server/create_db_users.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/server/entropy.class.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/server/entropy.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/server/server.classes.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/server/server.classes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/server/server.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/server/server.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/server/serverdatabase.class.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/server/serverdatabase.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/server/user.class.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/server/user.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-1/server/users.db" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-1/server/users.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-2/index.html" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-2/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-2/lab-6-2.css" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-2/lab-6-2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-2/server/book.fb2" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-2/server/book.fb2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-2/server/fb2html.xsl" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-2/server/fb2html.xsl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-2/server/get-section-html.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-2/server/get-section-html.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-2/server/get-section-xml.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-2/server/get-section-xml.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-2/server/server.functions.php" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-2/server/server.functions.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-6-2/xslt.js" afterPath="$PROJECT_DIR$/app/Ajax-spec/labs/lab-6-2/xslt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax/Ajax-1.html" afterPath="$PROJECT_DIR$/app/Ajax/Ajax-1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax/Ajax-temp.html" afterPath="$PROJECT_DIR$/app/Ajax/Ajax-temp.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax/ajax-1.js" afterPath="$PROJECT_DIR$/app/Ajax/ajax-1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax/ajax-temp.js" afterPath="$PROJECT_DIR$/app/Ajax/ajax-temp.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ajax/photo-01.jpg" afterPath="$PROJECT_DIR$/app/Ajax/photo-01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,26 +257,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="xmlhttprequest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/xmlhttprequest.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="21" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+=======
+      <file leaf-file-name="lab-1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/lab-1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="e#119#459#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="books.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/books.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="lab-1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/lab-1.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,6 +321,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+=======
+      <file leaf-file-name="getbooktxt.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/getbooktxt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
               <folding />
             </state>
           </provider>
@@ -128,8 +397,14 @@
         <option value="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.js" />
         <option value="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.html" />
         <option value="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html" />
         <option value="$PROJECT_DIR$/Ajax-spec/labs/lab-1/lab-1.js" />
+=======
+        <option value="$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/index.html" />
+        <option value="$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/getbooktxt.php" />
+        <option value="$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/lab-1.js" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
       </list>
     </option>
   </component>
@@ -151,8 +426,13 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="34" />
     <option name="y" value="71" />
+=======
+    <option name="x" value="270" />
+    <option name="y" value="79" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
     <option name="width" value="1631" />
     <option name="height" value="908" />
   </component>
@@ -174,6 +454,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,22 +468,25 @@
             <path>
               <item name="javascript.lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript.lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="javascript.lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript.lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Ajax-spec" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="javascript.lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript.lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Ajax-spec" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="javascript.lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript.lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Ajax-spec" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="module-1" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -207,12 +494,20 @@
             <path>
               <item name="javascript.lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript.lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+=======
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
               <item name="Ajax-spec" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="labs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="javascript.lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript.lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+=======
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
               <item name="Ajax-spec" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="labs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="lab-1" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -222,13 +517,16 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="last_opened_file_path" value="E:/__WEB/Delta3/Delta 3/www.delta.ru" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webmastering.con" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -240,6 +538,11 @@
       <recent name="C:\OpenServer\domains\javascript.lessons\spec2\bubling" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\javascript.lessons\spec2\lightbox" />
+      <recent name="E:\OpenServer2\OpenServer\domains\javascript.lessons\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\javascript.lessons\app" />
       <recent name="C:\OpenServer\domains\javascript.lessons\spec2\lightbox" />
       <recent name="E:\OpenServer2\OpenServer\domains\javascript.lessons\app" />
     </key>
@@ -295,12 +598,19 @@
       <workItem from="1508479417711" duration="4691000" />
       <workItem from="1508994216189" duration="2150000" />
       <workItem from="1509010162940" duration="8690000" />
+<<<<<<< HEAD
       <workItem from="1509080194235" duration="862000" />
       <workItem from="1509081094656" duration="2680000" />
+=======
+      <workItem from="1509184100846" duration="1362000" />
+      <workItem from="1509195201205" duration="798000" />
+      <workItem from="1509262619754" duration="10813000" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="118807000" />
   </component>
   <component name="ToolWindowManager">
@@ -309,14 +619,24 @@
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15786123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="128238000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="270" y="79" width="1631" height="908" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15977085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -360,6 +680,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/form/form-2.js" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
     <entry file="file://$PROJECT_DIR$/app/form/form-2.html" />
     <entry file="file://$PROJECT_DIR$/app/form/form-2.js" />
     <entry file="file://$PROJECT_DIR$/app/form/form-2.html" />
@@ -497,13 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/__WEB/Delta3/Delta 3/www.delta.ru/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="435" column="16" lean-forward="false" selection-start-line="435" selection-start-column="16" selection-end-line="435" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/__WEB/Delta3/Delta 3/www.delta.ru/index.html" />
     <entry file="file://$PROJECT_DIR$/spec2/bubling/form-spec.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -518,78 +836,115 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Ajax-spec/ajax-1.js">
+=======
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/ajax-1.js">
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/ajax-1.js">
+    <entry file="file://$PROJECT_DIR$/app/Ajax/ajax-1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/Ajax-1.html">
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/Ajax-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/Ajax-1.html">
+    <entry file="file://$PROJECT_DIR$/app/Ajax/Ajax-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/ajax-temp.js">
+    <entry file="file://$PROJECT_DIR$/app/Ajax/ajax-temp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/Ajax-temp.html">
+    <entry file="file://$PROJECT_DIR$/app/Ajax/Ajax-temp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-1.html">
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/demo/module-1/gettime.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="102">
           <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="8" selection-end-column="60" />
+=======
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-1.js">
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-3.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+=======
+        <state relative-caret-position="782">
+          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.html">
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/gettime.php">
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-1.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+=======
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="8" selection-end-column="59" />
+          <folding />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.js">
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/demo/module-1/demo-1.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="493">
           <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
         </state>
@@ -607,12 +962,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="64" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/xmlhttprequest.js">
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/demo/module-1/xmlhttprequest.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="17">
           <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="28" />
           <folding>
@@ -625,10 +985,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="34">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="21" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/xmlhttprequest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -657,7 +1030,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/books.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+>>>>>>> cec04c71e65369bce69baa4cb3de52504ae9ac08
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/getbooktxt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Ajax-spec/labs/lab-1/lab-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#119#459#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

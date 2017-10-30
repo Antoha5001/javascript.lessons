@@ -22,7 +22,7 @@ $books = file(BOOKS_FILE);
 if (!empty($_GET[NUM])){
 	// Парметр указан
 	$num = abs((int) $_GET[NUM]);
-	if ($num < count($books) && $num > 0)
+	if ($num <= count($books) && $num > 0)
 		echo $books[$num-1];
 	else
 		echo 'Книга не найдена';
