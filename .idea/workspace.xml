@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e14771d-85eb-4031-9469-c3d2eb394983" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Ajax/Ajax-temp.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Ajax/ajax-temp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/lab-1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/xmlhttprequest.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Ajax-spec/ajax-1.js" afterPath="$PROJECT_DIR$/Ajax-spec/ajax-1.js" />
-      <change beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.html" afterPath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.html" />
-      <change beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.js" afterPath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.js" />
-      <change beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.html" afterPath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.html" />
-      <change beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/gettime.php" afterPath="$PROJECT_DIR$/Ajax-spec/demo/module-1/gettime.php" />
+      <change beforePath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js" afterPath="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js" />
+      <change beforePath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html" afterPath="$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,34 +24,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo-3.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo-3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="xmlhttprequest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/xmlhttprequest.js">
+        <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/xmlhttprequest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lab-1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/lab-1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getbooktxt.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/getbooktxt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,6 +128,8 @@
         <option value="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-2.js" />
         <option value="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.html" />
         <option value="$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js" />
+        <option value="$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html" />
+        <option value="$PROJECT_DIR$/Ajax-spec/labs/lab-1/lab-1.js" />
       </list>
     </option>
   </component>
@@ -145,8 +151,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="39" />
+    <option name="x" value="34" />
+    <option name="y" value="71" />
     <option name="width" value="1631" />
     <option name="height" value="908" />
   </component>
@@ -168,8 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,10 +204,25 @@
               <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="module-1" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="javascript.lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript.lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Ajax-spec" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="labs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="javascript.lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript.lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Ajax-spec" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="labs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lab-1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,16 +232,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\javascript.lessons\spec2\lightbox" />
-      <recent name="E:\OpenServer2\OpenServer\domains\javascript.lessons\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OpenServer2\OpenServer\domains\javascript.lessons\Ajax-spec\labs\lab-1" />
       <recent name="E:\OpenServer2\OpenServer\domains\javascript.lessons\Ajax-spec\demo\module-1" />
       <recent name="E:\OpenServer2\OpenServer\domains\javascript.lessons\Ajax" />
       <recent name="E:\OpenServer2\OpenServer\domains\javascript.lessons\Ajax-spec" />
       <recent name="C:\OpenServer\domains\javascript.lessons\spec2\bubling" />
-      <recent name="C:\OpenServer\domains\javascript.lessons\spec2\slider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\javascript.lessons\spec2\lightbox" />
+      <recent name="E:\OpenServer2\OpenServer\domains\javascript.lessons\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,20 +295,22 @@
       <workItem from="1508479417711" duration="4691000" />
       <workItem from="1508994216189" duration="2150000" />
       <workItem from="1509010162940" duration="8690000" />
+      <workItem from="1509080194235" duration="862000" />
+      <workItem from="1509081094656" duration="2680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115265000" />
+    <option name="totallyTimeSpent" value="118807000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="39" width="1631" height="908" extended-state="0" />
+    <frame x="34" y="71" width="1631" height="908" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.154042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15786123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -339,10 +360,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/form/form-2.html" />
-    <entry file="file://$PROJECT_DIR$/app/form/form-2.js" />
-    <entry file="file://$PROJECT_DIR$/app/form/form-2.html" />
-    <entry file="file://$PROJECT_DIR$/app/form/form-2.js" />
     <entry file="file://$PROJECT_DIR$/app/form/form-2.html" />
     <entry file="file://$PROJECT_DIR$/app/form/form-2.js" />
     <entry file="file://$PROJECT_DIR$/app/form/form-2.html" />
@@ -501,18 +518,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ajax-spec/ajax-1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="8" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,32 +592,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/xmlhttprequest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="17">
           <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="28" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.html">
+    <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/demo/module-1/demo-1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax-spec/demo/module-1/demo-3.js">
+    <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/xmlhttprequest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/lab-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax-spec/labs/lab-1/getbooktxt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
