@@ -30,6 +30,7 @@
 					if (req.readyState != 4) return;
 					var responseText = String(req.responseText);
 					var books = responseText.split('\n');
+				console.log(books);
 					clearList();
 					for (var i = 0; i < books.length; i++)
 						addListItem(books[i]);
